@@ -9,8 +9,8 @@
         <module name="rest-assured" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="rest-assured" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="rest-assured" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
