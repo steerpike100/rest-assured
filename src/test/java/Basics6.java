@@ -32,12 +32,12 @@ public class Basics6 {
                 header("Content-Type", "application/json").
                 header("Cookie", "JSESSIONID=" + ReusableMethods.getSessionKey()).
                 body("{\n" +
-                        "    \"body\": \"ibrahimavic.\"\n" +
+                        "    \"body\": \"eh?.\"\n" +
                         "}").
         when().
-        post("/rest/api/2/issue/10004/comment").
+        put("/rest/api/2/issue/10004/comment/10100").
         then().
-        statusCode(201).
+        statusCode(200).
         extract().response();
 
         JsonPath js = ReusableMethods.rawToJson(res);
