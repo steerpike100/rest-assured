@@ -18,7 +18,9 @@ public class Basics9 {
 
     String id;
 
-    RestAssuredConfig timeout = RestAssuredConfig.config().httpClient(HttpClientConfig.httpClientConfig().setParam("CONNECTION_MANAGER_TIMEOUT", 12000));
+    RestAssuredConfig timeout = RestAssuredConfig.config()
+            .httpClient(HttpClientConfig.
+                    httpClientConfig().setParam("CONNECTION_MANAGER_TIMEOUT", 12000));
 
     @Test
     public void getLatestTweet(){
@@ -39,14 +41,14 @@ public class Basics9 {
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "getLatestTweet" )
     public void createTweet(){
 
         RestAssured.baseURI="https://api.twitter.com/1.1/statuses";
 
         Response res = given().config(timeout).
                 auth().oauth(consumerKey,consumerSecret,accessToken,tokenSecret).
-                queryParam("status", "new tweet through API woop").
+                queryParam("status", "gronk").
                 when().post("/update.json").
                 then().extract().response();
 
@@ -54,18 +56,17 @@ public class Basics9 {
         System.out.println(response);
         JsonPath js = new JsonPath(response);
         System.out.println(js.get("id").toString());
-        id = js.get("id");
+        id = js.get("id").toString();
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "createTweet")
     public void deleteTweet(){
 
         RestAssured.baseURI="https://api.twitter.com/1.1/statuses";
 
         Response res = given().config(timeout).
                 auth().oauth(consumerKey,consumerSecret,accessToken,tokenSecret).
-                queryParam("status", "new tweet through API woop").
                 when().post("/destroy/" + id + "/.json").
                 then().extract().response();
 

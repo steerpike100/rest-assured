@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63147b09-2fbd-4ee8-a4bf-d7c6c89af7ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scribejava_scribejava_apis_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_scribejava_scribejava_core_2_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Basics9.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Basics6.class" afterPath="$PROJECT_DIR$/target/test-classes/Basics6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Basics8.class" afterPath="$PROJECT_DIR$/target/test-classes/Basics8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rest-assured.iml" afterPath="$PROJECT_DIR$/rest-assured.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Basics6.java" afterPath="$PROJECT_DIR$/src/test/java/Basics6.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Basics9.java" afterPath="$PROJECT_DIR$/src/test/java/Basics9.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,8 +19,8 @@
       <file leaf-file-name="Basics9.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Basics9.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+            <state relative-caret-position="203">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Basics9.deleteTweet">
+  <component name="RunManager" selected="TestNG.Basics9.getLatestTweet">
     <configuration name="Basics9" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rest-assured" />
@@ -261,6 +254,33 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="Basics9.createTweet (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="rest-assured" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Basics9" />
+      <option name="METHOD_NAME" value="createTweet" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="Basics9.createTweet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rest-assured" />
@@ -288,34 +308,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Basics9.deleteTweet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="rest-assured" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Basics9" />
-      <option name="METHOD_NAME" value="deleteTweet" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Basics9.getLatestTweet (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Basics9.getLatestTweet" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="rest-assured" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -424,19 +417,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Basics9" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Basics9.getLatestTweet (1)" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet (1)" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Basics9.deleteTweet" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet (1)" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet (2)" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Basics9" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.Basics9.getLatestTweet" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Basics9.deleteTweet" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.Basics9.getLatestTweet" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.Basics9.getLatestTweet (1)" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.Basics9" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Basics9" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Basics9.createTweet (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -457,44 +450,44 @@
       <workItem from="1522757717483" duration="8637000" />
       <workItem from="1522844676643" duration="5737000" />
       <workItem from="1523089039616" duration="1702000" />
-      <workItem from="1523178671732" duration="4126000" />
+      <workItem from="1523178671732" duration="5133000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Basics9 - 2018.04.08 at 12h 29m 00s.xml">
+    <history-entry file="Basics9 - 2018.04.08 at 12h 43m 23s.xml">
       <configuration name="Basics9" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics9_createTweet - 2018.04.08 at 12h 29m 19s.xml">
+    <history-entry file="Basics9 - 2018.04.08 at 12h 46m 15s.xml">
+      <configuration name="Basics9" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basics9_createTweet - 2018.04.08 at 12h 45m 51s.xml">
       <configuration name="Basics9.createTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics9_createTweet_(1) - 2018.04.08 at 12h 32m 13s.xml">
+    <history-entry file="Basics9_createTweet_(1) - 2018.04.08 at 12h 48m 27s.xml">
       <configuration name="Basics9.createTweet (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics9_deleteTweet - 2018.04.08 at 12h 37m 28s.xml">
-      <configuration name="Basics9.deleteTweet" configurationId="TestNG" />
+    <history-entry file="Basics9_createTweet_(1) - 2018.04.08 at 12h 50m 53s.xml">
+      <configuration name="Basics9.createTweet (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basics9_createTweet_(1) - 2018.04.08 at 12h 52m 46s.xml">
+      <configuration name="Basics9.createTweet (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Basics9_createTweet_(2) - 2018.04.08 at 12h 42m 32s.xml">
+      <configuration name="Basics9.createTweet (2)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Basics9_deleteTweet - 2018.04.08 at 12h 38m 22s.xml">
       <configuration name="Basics9.deleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics9_getLatestTweet_(1) - 2018.04.08 at 12h 27m 44s.xml">
-      <configuration name="Basics9.getLatestTweet (1)" configurationId="TestNG" />
+    <history-entry file="Basics9_deleteTweet - 2018.04.08 at 12h 41m 16s.xml">
+      <configuration name="Basics9.deleteTweet" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Basics9_getLatestTweet_(1) - 2018.04.08 at 12h 29m 55s.xml">
-      <configuration name="Basics9.getLatestTweet (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Basics9_getLatestTweet_(1) - 2018.04.08 at 12h 30m 01s.xml">
-      <configuration name="Basics9.getLatestTweet (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Basics9_getLatestTweet_(1) - 2018.04.08 at 12h 30m 07s.xml">
-      <configuration name="Basics9.getLatestTweet (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Basics9_getLatestTweet_(2) - 2018.04.08 at 12h 28m 12s.xml">
-      <configuration name="Basics9.getLatestTweet (2)" configurationId="TestNG" />
+    <history-entry file="Basics9_getLatestTweet - 2018.04.08 at 12h 55m 05s.xml">
+      <configuration name="Basics9.getLatestTweet" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34446000" />
+    <option name="totallyTimeSpent" value="35453000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="0" width="1926" height="1043" extended-state="0" />
@@ -509,7 +502,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40618336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40618336" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3304904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -557,11 +550,17 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Basics9.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -916,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Basics9.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="77" column="49" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
+        <state relative-caret-position="203">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
